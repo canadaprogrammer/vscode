@@ -22,3 +22,9 @@
   git commit -m 'first commit'
   git push -u origin master
   ```
+
+## Solving fatal: refusing to merge unrelated histories
+
+- This error occurs when two unrelated projects are merged into a single branch.
+
+- The solution is `git pull origin master --allow-unrelated-histories`
