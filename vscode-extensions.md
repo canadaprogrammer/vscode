@@ -4,8 +4,7 @@
 
 - One Dark Pro
 - Theme
-- Prettier
-- Code formatter
+- Prettier - Code formatter by Prettier
 - indent-rainbow
 - Bracket Pair Colorizer 2
 - vscode-icons
