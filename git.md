@@ -55,7 +55,7 @@
 
 - The solution is `git pull origin master --allow-unrelated-histories`
 
-## Removing commits
+## Removing commits (Undoing committed changes)
 
 - The last commit
   - `git reset --hard HEAD^`
@@ -75,3 +75,10 @@
   2. `git pull origin master`
   3. Merge the changed on files by 'Accept Current Change'
   4. Commit
+
+## undoing uncommitted changes
+
+- Discard all untracked files, as well as staged and unstaged modifications
+  - `git stash`
+- Discard changes to a file permanently
+  - `git checkout --<file>`
