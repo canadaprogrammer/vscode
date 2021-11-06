@@ -1,5 +1,30 @@
 # Using Git
 
+## Git Configuration
+
+- Default VS Code as the git editor
+
+  - `git config --global core.editor "code --wait"`
+  - unset: `git config --global --unset core.editor`
+
+- Set new line on editor (related to carriage-return)
+
+  - windows: `git config --global core.autocrlf true`
+  - mac: `git config --global core.autocrlf input`
+
+- Set short key
+
+  - `git config --global alias.st status` : `git st` instead of `git status`
+
+- Edit git configuration
+  - `get config --global -e`
+  ```
+  [diff]
+    tool = vscode
+  [difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+  ```
+
 ## Adding new SSH on GitHub
 
 1. Create a new SSH key
