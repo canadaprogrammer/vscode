@@ -68,13 +68,11 @@
 
 5. Upload files to git repository
 
-- <s>`git add .`</s>
-
-  <s>`git commit -m 'first commit'`</s>
-
-  `git commit -a -m 'first commit'`
-
-  `git push -u origin master`
+- ```bash
+  git add .
+  git commit -m 'first commit'
+  git push -u origin master
+  ```
 
 ### Solving fatal: refusing to merge unrelated histories
 
