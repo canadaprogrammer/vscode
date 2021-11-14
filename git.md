@@ -107,3 +107,9 @@
   - `git stash`
 - Discard changes to a file permanently
   - `git checkout --<file>`
+
+## `git commit -am`
+
+- If there aren't Untracked files, you can add and commit changed at once.
+  - `git commit -am 'message'`
+  - It will add and commit changed except untracked files.
