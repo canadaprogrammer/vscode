@@ -113,3 +113,9 @@
 - If there aren't Untracked files, you can add and commit changed at once.
   - `git commit -am 'message'`
   - It will add and commit changed except untracked files.
+
+## Install dependencies after cloning from git
+
+- `git clone [repository]`
+
+- `npm install`
